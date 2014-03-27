@@ -24,11 +24,10 @@ Website::Application.configure do
   # config.assets.manifest = YOUR_PATH
   RAILS_ENV=production bundle exec rake assets:precompile
   config.cache_classes = true
-config.serve_static_assets = true
-config.assets.compile = true
-config.assets.digest = true
-  
-  config.assets.initialize_on_precompile = true
+  config.serve_static_assets = true
+  config.assets.compile = true
+  config.assets.digest = true
+  #config.assets.initialize_on_precompile = true
 
   # Specifies the header that your server uses for sending files
   # config.action_dispatch.x_sendfile_header = "X-Sendfile" # for apache
