@@ -13,14 +13,20 @@
  *= require_self
  *= require_tree .
  */
+ *{
+  padding: 0px;
+  margin: 0px;
+ }
 
 body {
+  width: 980px;
+  height: auto;
   background: #DDD;
   font-family: Verdana;
   font-size: 13px;
   line-height: 18px;
 }
-#header #logo a{
+#header #logo a {
 	Color :Green;
 }
 
