@@ -24,6 +24,7 @@ Website::Application.configure do
   # config.assets.manifest = YOUR_PATH
   #RAILS_ENV=production bundle exec rake assets:precompile
   config.assets.compile = true
+  config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif application-print.css)
   #config.assets.initialize_on_precompile = false
 
   # Specifies the header that your server uses for sending files
