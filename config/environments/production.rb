@@ -23,7 +23,7 @@ Website::Application.configure do
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
   #RAILS_ENV=production bundle exec rake assets:precompile
- 
+  config.assets.compile = true
   config.assets.initialize_on_precompile = false
 
   # Specifies the header that your server uses for sending files
