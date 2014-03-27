@@ -1,0 +1,169 @@
+/* Default error colouring */
+/* line 3, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/formatting.css.scss */
+article, nav, header, footer, aside, hgroup, section {
+  display: block;
+}
+
+/* line 7, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/formatting.css.scss */
+div.fieldWithErrors {
+  display: inline;
+}
+
+/* line 11, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/formatting.css.scss */
+#errorExplanation {
+  border-top: 3px solid #F27F7F;
+  background: #FFBEBE;
+  padding: 10px;
+}
+
+/* line 17, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/formatting.css.scss */
+#errorExplanation, #errorExplanation *, .fieldWithErrors, .fieldWithErrors * {
+  color: #9C2626;
+}
+
+/* Browser Hacks */
+/* line 22, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/formatting.css.scss */
+a {
+  /* remove borders from images */
+  /*
+  Firefox Dotted Line Fix
+    - http://sonspring.com/journal/removing-dotted-links
+  */
+}
+/* line 24, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/formatting.css.scss */
+a img {
+  border: 0px none;
+}
+/* line 31, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/formatting.css.scss */
+a:focus {
+  outline: none;
+}
+
+/*
+Clearfix docs
+ - Main docs: http://positioniseverything.net/easyclearing.html
+ - IE7 change: http://www.456bereastreet.com/archive/200603/new_clearing_method_needed_for_ie7/
+*/
+/* line 41, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/formatting.css.scss */
+.clearfix, section {
+  display: inline-block;
+}
+/* line 43, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/formatting.css.scss */
+.clearfix:after, section:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* Hide from IE Mac \*/
+/* line 53, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/formatting.css.scss */
+.clearfix, section {
+  display: block;
+}
+
+/* End hide from IE Mac */
+/* alignment styles */
+/* line 3, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/theme.css.scss */
+.text-align-left {
+  text-align: left;
+}
+
+/* line 6, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/theme.css.scss */
+.text-align-center {
+  text-align: center;
+}
+
+/* line 9, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/theme.css.scss */
+.text-align-right {
+  text-align: right;
+}
+
+/* line 12, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/theme.css.scss */
+.text-align-justify {
+  text-align: justify;
+}
+
+/* block alignment styles */
+/* line 17, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/theme.css.scss */
+.image-align-left {
+  float: left;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+/* line 22, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/theme.css.scss */
+.image-align-right {
+  float: right;
+  margin-left: 6px;
+  margin-bottom: 6px;
+}
+
+/* font sizes */
+/* line 29, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/theme.css.scss */
+.font-size-small {
+  font-size: 0.75em;
+}
+
+/* line 32, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/theme.css.scss */
+.font-size-normal {
+  font-size: 1em;
+}
+
+/* line 35, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/refinerycms-core-2.1.2/app/assets/stylesheets/refinery/theme.css.scss */
+.font-size-large {
+  font-size: 1.25em;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+
+
+ */
+
+
+body {
+  background: #DDD;
+  font-family: Verdana;
+  font-size: 13px;
+  line-height: 18px;
+}
+#header #logo a{
+	Color :Green;
+}
+
+#body, #side_body {
+  float: left;
+  width: 45%;
+  background: white;
+  color: #333;
+  padding: 20px;
+  margin: 5px;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0px;}
+
+  #menu ul li {
+    float: left;
+    margin-right: 10px;}
+  #menu ul li a {
+      display: block;
+      padding: 5px 10px;
+      text-decoration: none;
+    }
+  #menu ul li &.selected a, a:hover {
+      background: #CCC;
+    }
+  
