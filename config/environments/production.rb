@@ -27,6 +27,7 @@ Website::Application.configure do
   config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   config.assets.initialize_on_precompile = true
   config.serve_static_assets = true
+  config.assets.precompile += ['refinery/refinery.css']
   #config.assets.initialize_on_precompile = false
 
   # Specifies the header that your server uses for sending files
